@@ -16,7 +16,7 @@ const response = await fetch(
             orderBy: createdAtTimestamp
             orderDirection: desc
             first: 500
-            where: {token: "0x1eff3dd78f4a14abfa9fa66579bd3ce9e1b30529"}
+            where: {token: "0x46fd5cfb4c12d87acd3a13e92baa53240c661d93"}
           ) {
             createdAtTimestamp
             receiver {
